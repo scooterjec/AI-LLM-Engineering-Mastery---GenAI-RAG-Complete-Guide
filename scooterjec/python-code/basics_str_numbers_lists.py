@@ -64,3 +64,7 @@ print(f"Number of ages in the list: {list_length}")
 colors = ["red", "blue", "green"]
 for color in colors:
     print(f"I like the color {color.title()}.")
+    
+# remove all instance of specific value in a list
+
+ingredients = ["avocado", "tomato", "avocado", "avocado", 'lettuce', "avocado"]
