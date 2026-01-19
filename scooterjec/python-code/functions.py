@@ -10,7 +10,7 @@ def greet(name, age=5):
 greet("pepe")
 
 for i in range(0,10):
-    greet(age=i+3, name=f'JEC')
+    greet(age=i+3, name='JEC')
     
 def car_detail(car_type='truck', car_name='bmw'):
     print(f"I have a {car_type} named {car_name}")
