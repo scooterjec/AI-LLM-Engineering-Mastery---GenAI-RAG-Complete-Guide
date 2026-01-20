@@ -15,21 +15,21 @@ names_json = json.dumps(names)
 print(names)
 print(names_json)
 
-with Path.open("names.json", "w") as f:
+with Path("names.json").open("w") as f:
     contents = json.dumps(names)
     f.write(contents)
     
-with Path.open("names.json", "r") as f:
+with Path("names.json").open("r") as f:
     contents = json.load(f)
     print(contents)
     
 def save_to_json(data, filename="countries.json"):
     """ Save the list od countries to a JSON file """
-    with Path.open(filename, "w") as f:
+    with Path(filename).open("w") as f:
         json.dump(data, f)
         
 def read_from_json(filename="countries.json"):
-    with Path.open(filename, 'r') as f:
+    with Path(filename).open('r') as f:
         return json.load(f)
         
 def main():
