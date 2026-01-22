@@ -1,0 +1,110 @@
+Skipping info and debug messages, pass --info and/or --debug to include.
+Timestamp                       Thread     Type        Activity             PID    TTL
+2026-01-22 18:41:24.114359+0100 0x10e8a    Activity    0x7ec00              5857   0    zed: (libsystem_info.dylib) Retrieve User by ID
+2026-01-22 18:41:24.115158+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb8000] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.agent
+2026-01-22 18:41:24.115273+0100 0x10e8a    Activity    0x7ec01              5857   0    zed: (CoreFoundation) Loading Preferences From User CFPrefsD
+2026-01-22 18:41:24.115951+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb80f0] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-01-22 18:41:24.118020+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb00f0] activating connection: mach=true listener=false peer=false name=com.apple.pasteboard.1
+2026-01-22 18:41:24.118853+0100 0x10e8a    Activity    0x7ec02              5857   0    zed: (CoreFoundation) Loading Preferences From User CFPrefsD
+2026-01-22 18:41:24.119182+0100 0x10e8a    Activity    0x7ec03              5857   0    zed: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-01-22 18:41:24.121255+0100 0x10e8a    Activity    0x7ec04              5857   0    zed: (libsystem_info.dylib) Membership API: translate identifier
+2026-01-22 18:41:24.124916+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e87059d0] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-01-22 18:41:24.130402+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb01e0] activating connection: mach=true listener=false peer=false name=com.apple.distributed_notifications@Uv3
+2026-01-22 18:41:24.132295+0100 0x10e8a    Activity    0x7ec05              5857   0    zed: (TCC) TCCAccessRequest() IPC
+2026-01-22 18:41:24.132445+0100 0x10e8a    Default     0x7ec05              5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb02d0] activating connection: mach=true listener=false peer=false name=com.apple.tccd.system
+2026-01-22 18:41:24.206512+0100 0x10e8a    Default     0x7ec05              5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb02d0] invalidated after the last release of the connection object
+2026-01-22 18:41:24.207169+0100 0x10e8a    Default     0x0                  5857   7    zed: (SkyLight) [com.apple.SkyLight:default] server port 0x00003307, session port 0x00003307
+2026-01-22 18:41:24.279719+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb4000] activating connection: mach=true listener=false peer=false name=com.apple.coreservices.launchservicesd
+2026-01-22 18:41:24.282855+0100 0x10e8a    Default     0x0                  5857   7    zed: (SkyLight) [com.apple.SkyLight:default] New connection 0x43863 main
+2026-01-22 18:41:24.396946+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:AutomaticTermination] void _NSDisableAutomaticTerminationAndLog(NSString *) No windows open yet
+2026-01-22 18:41:24.397395+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb81e0] activating connection: mach=true listener=false peer=false name=com.apple.analyticsd
+2026-01-22 18:41:24.403864+0100 0x10e8a    Default     0x0                  5857   0    zed: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=5857
+2026-01-22 18:41:24.523894+0100 0x10ea6    Default     0x0                  5857   0    zed: (CoreAnalytics) [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-01-22 18:41:24.526753+0100 0x10e8a    Default     0x0                  5857   0    zed: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKEDIN: pid=5857 asn=0x0-0x87087 foreground=1
+2026-01-22 18:41:24.527242+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] activating connection: mach=false listener=true peer=false name=(anonymous)
+2026-01-22 18:41:24.527250+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] Channel could not return listener port.
+2026-01-22 18:41:24.527568+0100 0x10ec2    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e9108380] activating connection: mach=false listener=false peer=true name=com.apple.xpc.anonymous.0x7fd6e90078b0.peer[130].0x7fd6e9108380
+2026-01-22 18:41:24.528601+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] FRONTLOGGING: version 1
+2026-01-22 18:41:24.528603+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] Registered, pid=5857 ASN=0x0,0x87087
+2026-01-22 18:41:24.530757+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] Channel could not return listener port.
+2026-01-22 18:41:24.531423+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] BringForward: pid=5857 asn=0x0-0x87087 bringForward=1 foreground=1 uiElement=0 launchedByLS=1 modifiersCount=1 allDisabled=0
+2026-01-22 18:41:24.531439+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] BringFrontModifier: pid=5857 asn=0x0-0x87087 Modifier 0 hideAfter=0 hideOthers=0 dontMakeFrontmost=0 mouseDown=0/0 seed=0/0
+2026-01-22 18:41:24.531441+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] BringForward: pid=5857 asn=0x0-0x87087
+2026-01-22 18:41:24.531441+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] SetFrontProcess: asn=0x0-0x87087 options=0
+2026-01-22 18:41:24.540684+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+2026-01-22 18:41:24.542988+0100 0x10e8a    Default     0x0                  5857   0    zed: (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-01-22 18:41:24.544498+0100 0x10e8a    Default     0x0                  5857   0    zed: (libMobileGestalt.dylib) Failed to copy the SysCfgDict MG key with error: 0
+2026-01-22 18:41:24.546724+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 1), (SLS: 0)
+2026-01-22 18:41:24.548092+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 1)
+2026-01-22 18:41:24.553816+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] Channel could not return listener port.
+2026-01-22 18:41:24.561311+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] Channel could not return listener port.
+2026-01-22 18:41:24.565676+0100 0x10e8a    Default     0x0                  5857   0    zed: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-01-22 18:41:24.565905+0100 0x10e8a    Default     0x0                  5857   0    zed: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-01-22 18:41:24.566145+0100 0x10e8a    Default     0x0                  5857   0    zed: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-01-22 18:41:24.566682+0100 0x10e8a    Default     0x0                  5857   0    zed: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-01-22 18:41:24.729035+0100 0x10e8a    Activity    0x7ec06              5857   0    zed: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-01-22 18:41:24.730563+0100 0x10e8a    Default     0x0                  5857   0    zed: (GenerativeModels) [com.apple.GenerativeModels:availability] registering darwin observer for name: com.apple.gms.availability.notification
+2026-01-22 18:41:24.730653+0100 0x10e8a    Default     0x0                  5857   0    zed: (GenerativeModels) [com.apple.GenerativeModels:availability] registering darwin observer for name: com.apple.os-eligibility-domain.change.greymatter
+2026-01-22 18:41:24.730702+0100 0x10e8a    Default     0x0                  5857   0    zed: (GenerativeModels) [com.apple.GenerativeModels:availability] registering darwin observer for name: com.apple.language.changed
+2026-01-22 18:41:24.730752+0100 0x10e8a    Default     0x0                  5857   0    zed: (WritingToolsUI) [com.apple.WritingTools:Default] isAvailable value changed: featureEnabled = true, isMDMAllowed = true, gmAvailable (current) = false
+2026-01-22 18:41:24.748414+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:Appearance] NSApp cache appearance:
+-NSRequiresAquaSystemAppearance: 0
+-appearance: (null)
+-effectiveAppearance: <NSCompositeAppearance: 0x6000016b6be0
+ (
+    "<NSAquaAppearance: 0x6000016b7cc0>",
+    "<NSSystemAppearance: 0x6000016b74e0>"
+)>
+2026-01-22 18:41:24.755552+0100 0x10e8a    Activity    0x7ec07              5857   0    zed: (CoreFoundation) Loading Preferences From User CFPrefsD
+2026-01-22 18:41:24.756092+0100 0x10e8a    Activity    0x7ec08              5857   0    zed: (CoreFoundation) Loading Preferences From User CFPrefsD
+2026-01-22 18:41:24.771920+0100 0x10ec2    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb0000] activating connection: mach=true listener=false peer=false name=com.apple.dock.fullscreen
+2026-01-22 18:41:24.774972+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x6000018baa00] activating connection: mach=true listener=false peer=false name=com.apple.fonts
+2026-01-22 18:41:24.786731+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e8722060] activating connection: mach=true listener=false peer=false name=com.apple.appkit.restoration_storage
+2026-01-22 18:41:24.787748+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bbc2d0] activating connection: mach=true listener=false peer=false name=com.apple.coreservices.appleevents
+2026-01-22 18:41:24.788341+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e90078b0] Channel could not return listener port.
+2026-01-22 18:41:24.789008+0100 0x10e8a    Default     0x0                  5857   0    zed: (HIServices) [com.apple.processmanager:front-35286506] SignalReady: pid=5857 asn=0x0-0x87087
+2026-01-22 18:41:24.789851+0100 0x10e8a    Default     0x0                  5857   0    zed: (LaunchServices) [com.apple.processmanager:front-35286506] SIGNAL: pid=5857 asn=0x0x-0x87087
+2026-01-22 18:41:24.816587+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:AutomaticTermination] void _NSDisableAutomaticTerminationAndLog(NSString *) Restoring windows
+2026-01-22 18:41:24.818551+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:StateRestoration] -[NSApplication _reopenWindowsAsNecessaryIncludingRestorableState:withFullFidelity:completionHandler:] shouldRestoreState=1 hasPersistentStateToRestore=0 shouldStillRestoreStateAfterPrompting=0
+2026-01-22 18:41:24.818636+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb0f00] activating connection: mach=true listener=false peer=false name=com.apple.window_proxies
+2026-01-22 18:41:24.818804+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb0f00] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
+2026-01-22 18:41:24.820721+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:AutomaticTermination] void _NSEnableAutomaticTerminationAndLog(NSString *) Restoring windows
+2026-01-22 18:41:25.006427+0100 0x10f10    Default     0x0                  5857   0    zed: (Network) [com.apple.network:] networkd_settings_read_from_file initialized networkd settings by reading plist directly
+2026-01-22 18:41:25.007134+0100 0x10f10    Default     0x0                  5857   0    zed: (Network) [com.apple.network:] networkd_settings_read_from_file initialized networkd settings by reading plist directly
+2026-01-22 18:41:25.008006+0100 0x10f10    Default     0x0                  5857   0    zed: (Network) [com.apple.network:path] nw_path_libinfo_path_check [F5AC7771-E7D3-4728-8F74-7AC5E7E3DC45 Hostname#307ef16d:0 tcp, legacy-socket, attribution: developer]
+	libinfo check path: satisfied (Path is satisfied), interface: en0[802.11], ipv4, dns, uses wifi
+2026-01-22 18:41:25.138389+0100 0x10ef2    Activity    0x7ec0a              5857   0    zed: (Security) SecTrustEvaluateIfNecessary
+2026-01-22 18:41:25.138483+0100 0x10ef2    Default     0x7ec0a              5857   0    zed: (Security) [com.apple.securityd:keychain] Enabling System Keychain Always due to platform
+2026-01-22 18:41:25.141113+0100 0x10ef2    Default     0x7ec0a              5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb4a50] activating connection: mach=true listener=false peer=false name=com.apple.trustd.agent
+2026-01-22 18:41:25.157558+0100 0x10ea7    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e875aaa0] activating connection: mach=true listener=false peer=false name=com.apple.windowmanager.server
+2026-01-22 18:41:25.160843+0100 0x10e8a    Default     0x0                  5857   0    zed: (AppKit) [com.apple.AppKit:Window] order all windows front 4773630751665
+2026-01-22 18:41:25.161656+0100 0x10e8a    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:connection] Initializing connection
+2026-01-22 18:41:25.161722+0100 0x10e8a    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:process] Removing all cached process handles
+2026-01-22 18:41:25.161758+0100 0x10ea7    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-01-22 18:41:25.161761+0100 0x10ea7    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-01-22 18:41:25.161769+0100 0x10ea7    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb1b30] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-01-22 18:41:25.162685+0100 0x10eb5    Activity    0x7ec0c              5857   0    zed: (RunningBoardServices) didChangeInheritances
+2026-01-22 18:41:25.163156+0100 0x10ea7    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:connection] Handshake succeeded
+2026-01-22 18:41:25.163176+0100 0x10ea7    Default     0x0                  5857   0    zed: (RunningBoardServices) [com.apple.runningboard:connection] Identity resolved as app<application.dev.zed.Zed.1310334.1310339(501)>
+2026-01-22 18:41:25.166589+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bbcf00] activating connection: mach=false listener=false peer=false name=com.apple.ViewBridgeAuxiliary
+2026-01-22 18:41:25.182073+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e900ed50] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-01-22 18:41:25.183105+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e870f4c0] activating connection: mach=false listener=true peer=false name=(anonymous)
+2026-01-22 18:41:25.183118+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x7fd6e870f4c0] Channel could not return listener port.
+2026-01-22 18:41:25.184235+0100 0x10e8a    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bbcf00] invalidated after the last release of the connection object
+2026-01-22 18:41:25.197187+0100 0x10eb5    Activity    0x7ec0d              5857   0    zed: (Security) SecItemCopyMatching
+2026-01-22 18:41:25.197207+0100 0x10eb5    Activity    0x7ec0e              5857   0    zed: (Security) SecItemCopyMatching_ios
+2026-01-22 18:41:25.197256+0100 0x10eb5    Default     0x7ec0e              5857   0    zed: (Security) [com.apple.securityd:secitemratelimit] Not internal release, disabling SIRL
+2026-01-22 18:41:25.197286+0100 0x10eb5    Default     0x7ec0e              5857   0    zed: (Security) [com.apple.securityd:thread-local-client-debug] SecSecurityClientGet new thread!
+2026-01-22 18:41:25.197337+0100 0x10eb5    Default     0x7ec0e              5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb8c30] activating connection: mach=true listener=false peer=false name=com.apple.securityd.xpc
+2026-01-22 18:41:25.198357+0100 0x10eb5    Activity    0x7ec0f              5857   0    zed: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-01-22 18:41:25.199481+0100 0x10eb5    Default     0x7ec0d              5857   0    zed: (Security) [com.apple.securityd:MDSStaticDatabase] [updateDataBases]: Databases already exist; Nothing to Update
+2026-01-22 18:41:25.225161+0100 0x10f10    Default     0x0                  5857   0    zed: (Network) [com.apple.network:path] nw_path_libinfo_path_check [107A359A-AE76-48E1-B080-46D405EDD45E Hostname#279ff979:0 tcp, legacy-socket, attribution: developer]
+	libinfo check path: satisfied (Path is satisfied), interface: en0[802.11], ipv4, dns, uses wifi
+2026-01-22 18:41:25.255666+0100 0x10e8a    Default     0x0                  5857   0    zed: (CoreAnalytics) [com.apple.CoreAnalytics:client] Entering exit handler.
+2026-01-22 18:41:25.255670+0100 0x10e8a    Default     0x0                  5857   0    zed: (CoreAnalytics) [com.apple.CoreAnalytics:client] Queueing exit procedure onto XPC queue. Any further messages sent will be discarded. activeSendTransactions=0
+2026-01-22 18:41:25.255731+0100 0x10ea7    Default     0x0                  5857   0    zed: (CoreAnalytics) [com.apple.CoreAnalytics:client] Cancelling XPC connection. Any further reply handler invocations will not retry messages
+2026-01-22 18:41:25.255737+0100 0x10ea7    Default     0x0                  5857   0    zed: (libxpc.dylib) [com.apple.xpc:connection] [0x600001bb81e0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
+2026-01-22 18:41:25.255757+0100 0x10e8a    Default     0x0                  5857   0    zed: (CoreAnalytics) [com.apple.CoreAnalytics:client] Exiting exit handler.
+--------------------------------------------------------------------------------------------------------------------
+Log      - Default:         82, Info:                0, Debug:             0, Error:          0, Fault:          0
+Activity - Create:          14, Transition:          0, Actions:           0
