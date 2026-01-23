@@ -1,1 +1,6 @@
 scooterjec/python-code/.python-version
+.DS_Store
+scooterjec/python-code/package-lock.json
+scooterjec/ai-llm/.python-version
+scooterjec/python-code/package.json
+scooterjec/python-code/node_modules/*
