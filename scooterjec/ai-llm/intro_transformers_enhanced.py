@@ -1,4 +1,4 @@
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+from transformers import pipeline, AutoTokenizer
 
 def create_simple_llm():
     """
@@ -72,7 +72,7 @@ def explain_process():
     tokens = tokenizer.encode(text)
     decoded = tokenizer.decode(tokens)
 
-    print(f"\nExample Tokenization:")
+    print("\nExample Tokenization:")
     print(f"➡️ Original Text: {text}")
     print(f"➡️ As Tokens (numbers): {tokens}")
     print(f"➡️ Decoded back: {decoded}")
