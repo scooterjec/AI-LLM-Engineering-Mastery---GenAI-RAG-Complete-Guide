@@ -41,8 +41,9 @@ def create_simple_llm():
 # Ejemplo de uso
 if __name__ == "__main__":
     llm = create_simple_llm()
+    prompt = "Once upon a time"
     output = llm(
-        "Explícame en una frase qué es un LLM",
+        prompt,
         max_new_tokens=60,
         temperature=0.5
     )
