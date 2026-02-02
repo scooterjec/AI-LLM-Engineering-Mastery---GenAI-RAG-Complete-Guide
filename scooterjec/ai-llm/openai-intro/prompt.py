@@ -94,7 +94,7 @@ completion_sampling = client.chat.completions.create(
         )
 # print(completion_sampling.choices[0].message.content)
 
-# Combining techniques
+# Combining techniques and streaming
 completion_combined = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
@@ -104,7 +104,12 @@ completion_combined = client.chat.completions.create(
                 "content": """Describe a day in Paris, including historical landmarks, local cuisine, and cultural experiences. Ensure to give a step-by-step itinerary. Use a friendly and engaging tone."""}
             ],
             temperature=0.9,
+            stream = True,
             # top_p=0.9,
             )
-print(completion_combined.choices[0].message.content)
+# print(completion_combined.choices[0].message.content)
+for chunk in completion_combined:
+    if chunk.choices[0].delta.content is not None:
+        print(chunk.choices[0].delta.content, end="")
+    print("\n")
 
