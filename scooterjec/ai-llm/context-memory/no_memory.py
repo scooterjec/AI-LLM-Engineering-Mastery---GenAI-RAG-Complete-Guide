@@ -22,7 +22,7 @@ def simple_chat_without_memory(user_input:str, use_ollama: bool = True) -> str:
         response = client.chat.completions.create(
                 model=model_name, messages = [{"role":"user", "content": user_input }]
         )
-        return responce.choices[0].message.content
+        return response.choices[0].message.content
     except Exception as e:
         return f"Error:{str(e)}"
 
