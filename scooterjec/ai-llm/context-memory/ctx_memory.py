@@ -62,7 +62,7 @@ def load_conversation( filename: str = "conversation_history.json"
     try:
         with open(filename, "r") as f:
             return json.load(f)
-    except FileNotFoundError as e:
+    except Exception as e:
         print(f"Error loading conversation file {filename}: {str(e)}")
         return create_initial_context()
 
