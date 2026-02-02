@@ -60,9 +60,8 @@ def load_conversation( filename: str = "conversation_history.json"
     ) -> List[Dict[str,str]]:
     """ Load the conversation history from a file """
     try:
-        if os.path.exists(filename):
-            with open(filename, "r") as f:
-                return json.load(f)
+        with open(filename, "r") as f:
+            return json.load(f)
     except FileNotFoundError as e:
         print(f"Error loading conversation file {filename}: {str(e)}")
         return create_initial_context()
