@@ -86,7 +86,7 @@ def main():
 
     # Load previous conversation or create new context
     messages = load_conversation()
-    print(f"loaded (or initial) messages: {messages}"
+    print(f"loaded (or initial) messages: {messages}")
 
     # Print instructions
     print("=== Chat session started ===")
