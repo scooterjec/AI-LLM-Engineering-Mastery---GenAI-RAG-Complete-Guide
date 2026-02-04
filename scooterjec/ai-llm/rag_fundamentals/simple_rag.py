@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
-import chromadb
-from chromadb.utils import embedding_functions
+import chromedb
+from chromedb.utils import embedding_functions
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
@@ -130,8 +130,8 @@ def load_csv():
         print(f"- {doc}")
     return documents
 
-def setup_chromadb(documents, embedding_model):
-    client = chromadb.Client()
+def setup_chromedb(documents, embedding_model):
+    client = chromedb.Client()
 
     try:
         client.delete_collection("space_facts")
@@ -139,12 +139,12 @@ def setup_chromadb(documents, embedding_model):
         pass
 
     collection = client.create_collection(
-        name = "space_facts", embedding_function = embedding_model.empedding_fn
+        name = "space_facts", embedding_function = embedding_model.embedding_fn
     )
 
     collection.add(documents=documents, ids = [str(i) for i in range(len(documents))])
 
-    print("\nDocuments added to ChromaDB collection successfully!")
+    print("\nDocuments added to ChromeDB collection successfully!")
     return collection
 
 def find_related_chunks(query, collection, top_k=2):
@@ -212,7 +212,7 @@ def main():
     documents = load_csv()
 
     # Setup ChromaDB
-    collection = setup_chromadb(documents, embedding_model)
+    collection = setup_chromedb(documents, embedding_model)
 
     # Run queries
     queries = [
