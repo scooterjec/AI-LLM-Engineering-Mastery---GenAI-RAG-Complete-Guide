@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
-import chromedb
-from chromedb.utils import embedding_functions
+import chromadb
+from chromadb.utils import embedding_functions
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
@@ -15,7 +15,7 @@ class EmbeddingModel:
         self.model_type = model_type
         if self.model_type == "openai":
             self.client = OpenAI(api_key = openai_key)
-            self.embedding_fn = embedding_functions.OpenAIEmbedding(
+            self.embedding_fn = embedding_functions.OpenAIEmbeddingFunction(
                 openai_key,
                 model_name = "text-embedding-3-small"
             )
@@ -130,8 +130,8 @@ def load_csv():
         print(f"- {doc}")
     return documents
 
-def setup_chromedb(documents, embedding_model):
-    client = chromedb.Client()
+def setup_chromadb(documents, embedding_model):
+    client = chromadb.Client()
 
     try:
         client.delete_collection("space_facts")
@@ -212,7 +212,7 @@ def main():
     documents = load_csv()
 
     # Setup ChromaDB
-    collection = setup_chromedb(documents, embedding_model)
+    collection = setup_chromadb(documents, embedding_model)
 
     # Run queries
     queries = [
