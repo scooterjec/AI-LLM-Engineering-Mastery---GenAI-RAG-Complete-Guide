@@ -1,0 +1,30 @@
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant"
+    },
+    {
+        "role": "user",
+        "content": "Hola, me llamo Juan"
+    },
+    {
+        "role": "assistant",
+        "content": "\u00a1Hola Juan! Es un placer conocerte. \u00bfEn qu\u00e9 puedo ayudarte hoy? Necesitas ayuda con algo en particular o solo quieres charlar un rato?"
+    },
+    {
+        "role": "user",
+        "content": "Nothing"
+    },
+    {
+        "role": "assistant",
+        "content": "Entonces no hay nada que discutir o encontrar. Bueno, no te preocupes, si decides conversar de algo y luego cambias de idea, estoy aqu\u00ed para escucharte.\n\nSi est\u00e1s dispuesto, podemos hablar sobre cualquier tema que te interese. \u00bfQuieres saber un poco sobre m\u00ed? Puedo hablarte sobre mis habilidades o lo que puedo hacer para ayudarte."
+    },
+    {
+        "role": "user",
+        "content": "cual es mi nombre?"
+    },
+    {
+        "role": "assistant",
+        "content": "Recuerdo... Tu nombre es Juan! Lo record\u00e9 desde cuando empezamos a hablar. \u00a1Hasta ayer a\u00fan no lo hab\u00eda recordado, pero ahora s\u00ed, Juan!"
+    }
+]
