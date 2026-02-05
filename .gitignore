@@ -52,6 +52,7 @@ venv.bak/
 scooterjec/python-code/.python-version
 scooterjec/python-code/package-lock.json
 scooterjec/ai-llm/.python-version
+scooterjec/ai-llm/uv.lock
 scooterjec/python-code/package.json
 scooterjec/python-code/node_modules/*
 
