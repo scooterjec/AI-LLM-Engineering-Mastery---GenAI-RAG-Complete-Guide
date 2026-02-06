@@ -8,6 +8,8 @@ dependencies = [
     "altair==4.2.2",
     "certifi>=2026.1.4",
     "chromadb>=1.4.1",
+    "faiss-cpu>=1.13.2",
+    "langchain-community>=0.4.1",
     "langchain-ollama>=1.0.1",
     "langchain[openai]>=1.2.8",
     "openai>=2.16.0",
