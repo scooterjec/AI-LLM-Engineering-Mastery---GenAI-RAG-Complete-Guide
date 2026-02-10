@@ -59,6 +59,7 @@ model = init_chat_model("llama3.2", model_provider = "ollama")
 
 chain = prompt | model | StrOutputParser()
 
+query = "Give me a summary of the speech in bullet points and translate them to Spanish"
 response = chain.invoke({"docs": docs, "query": query})
 print(f"\n\nModel Response::: \n \n{response}")
  
