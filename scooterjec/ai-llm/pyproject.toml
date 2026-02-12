@@ -18,7 +18,7 @@ dependencies = [
     "libmagic>=1.0",
     "lxml-html-clean>=0.4.3",
     "newspaper3k>=0.2.8",
-    "openai>=2.16.0",
+    "openai[datalib]>=2.16.0",
     "openai-whisper>=20250625",
     "pandas>=3.0.0",
     "pypdf2>=3.0.1",
@@ -33,6 +33,7 @@ dependencies = [
     "unstructured>=0.18.31",
     "urllib3>=2.6.3",
     "yt-dlp>=2026.2.4",
+    "tiktoken>=0.12.0",
 ]
 
 [[tool.uv.index]]
